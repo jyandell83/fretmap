@@ -1,7 +1,9 @@
 const $submitRootBtn = $('#submit-root');
+let $liObject = $('li');
 
-console.log($submitRootBtn);
 
 $submitRootBtn.on('click', ()  =>  {
-    console.log('ding ding ding');
+    $liObject.removeClass('red');
+    let currentRoot = $('#root-select').val();
+    $('.'+currentRoot).toggleClass('red');
 });
