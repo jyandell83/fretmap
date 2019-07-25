@@ -4,6 +4,6 @@ A visual representation of scale patterns on guitar fretboard. Just something to
 
 ## Tech
 
-1.jQuery
-2.HTML
-3.CSS
+1. jQuery
+2. HTML
+3. CSS
